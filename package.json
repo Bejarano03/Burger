@@ -17,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/Bejarano03/Burger/issues"
   },
-  "homepage": "https://github.com/Bejarano03/Burger#readme"
+  "homepage": "https://github.com/Bejarano03/Burger#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "mysql": "^2.18.1"
+  }
 }
