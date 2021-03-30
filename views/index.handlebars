@@ -12,8 +12,8 @@
         {{#each burgers}}
         {{#unless devoured}}
         <li class="list-group-item"> 
-          <p>{{burger_name}} <button class="devoured"  data-id={{id}}   >Devoured</button> 
-            {{burger_name}} <button class="delete" data-id={{id}} type="submit" data-order="true"> X </button> </p>
+          <p>{{burger_name}} <button class="eat"  data-id={{id}}   >Eat</button> 
+            {{burger_name}} <button class="delete" data-id={{id}} type="submit" data-order="true"> delete </button> </p>
         </li>
         {{/unless}}
         {{/each}}
@@ -28,7 +28,7 @@
 <div class="row justify-content-center">
   <div class="col-6 p-2" >
       <ul class="list-group" id="burgertitle">
-          <h3> Burgers Devoured </h3>
+          <h3> Burgers Eaten</h3>
         {{#each burgers}}
         {{#if devoured}}
          <li class="list-group-item"> 

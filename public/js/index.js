@@ -4,7 +4,7 @@ $(function () {
     
     });
 
-    $(".devoured").on("click", function(){
+    $(".eat").on("click", function(){
     var id = $(this).attr("data-id")
     $.ajax({
         url:"/api/burgers/"+id,
